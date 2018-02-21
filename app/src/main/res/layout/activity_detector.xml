@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahmed.dermogo20.detectorActivity">
+
+
+    <ScrollView
+        android:layout_width="385dp"
+        android:layout_height="683dp"
+        android:layout_marginRight="15dp"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/headacheImage"
+                android:layout_width="match_parent"
+                android:layout_height="242dp"
+                app:srcCompat="@drawable/headache" />
+
+            <CheckBox
+                android:id="@+id/headacheBox"
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:onClick="headacheClick"
+                android:text="Check if you have a headache" />
+
+            <ImageView
+                android:id="@+id/acnePapulesImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/acnepapules" />
+
+            <CheckBox
+                android:id="@+id/acnePapulesBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="acnePapulesClick"
+                android:text="Check if you have this" />
+
+
+            <ImageView
+                android:id="@+id/sunBurnBlistersImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/sunburnblisters" />
+
+            <CheckBox
+                android:id="@+id/sunBurnBlistersBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="sunBurnBlistersClick"
+                android:text="Check if you have this" />
+
+            <ImageView
+                android:id="@+id/acneCystImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/acnecyst" />
+
+            <CheckBox
+                android:id="@+id/acneCystBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="acneCystClick"
+                android:text="Check if you have this" />
+
+            <ImageView
+                android:id="@+id/sunBurnSkinPeelingImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/sunburnskinpeeling" />
+
+            <CheckBox
+                android:id="@+id/sunBurnSkinPeelingBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="sunBurnSkinPeelingClick"
+                android:text="Check if you have this" />
+
+
+            <ImageView
+                android:id="@+id/eczemaItcheImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/eczemaitche" />
+
+            <CheckBox
+                android:id="@+id/eczemaItcheBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="eczemaItcheClick"
+                android:text="Check if you have this" />
+
+
+            <ImageView
+                android:id="@+id/acneBlackHeadImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/acneblackhead" />
+
+            <CheckBox
+                android:id="@+id/acneBlackHeadBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="acneBlackHeadClick"
+                android:text="Check if you have this" />
+
+            <ImageView
+                android:id="@+id/sunBurnVisableMarksImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/sunburnvisablemarks" />
+
+            <CheckBox
+                android:id="@+id/sunBurnVisableMarksBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="sunBurnVisibleMarksClick"
+                android:text="Check if you have this" />
+
+
+            <ImageView
+                android:id="@+id/eczemaOnFeetImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/eczemaonfeet" />
+
+            <CheckBox
+                android:id="@+id/eczemaonFeetBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="eczemaOnFeetClick"
+                android:text="Check if you have this" />
+
+
+            <ImageView
+                android:id="@+id/acnePimpleImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/acnepimple" />
+
+            <CheckBox
+                android:id="@+id/acnePimpleBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="acnePimpleClick"
+                android:text="Check if you have this" />
+
+
+            <ImageView
+                android:id="@+id/eczemaRashOnFace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/eczemarashonface" />
+
+            <CheckBox
+                android:id="@+id/eczemaRashOnFaceBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="eczemaRashOnFaceClick"
+                android:text="Check if you have this" />
+
+
+            <ImageView
+                android:id="@+id/acneRedSpotsImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/acnepimple" />
+
+            <CheckBox
+                android:id="@+id/acneRedSpotsBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="acneRedSpotsClick"
+                android:text="Check if you have this" />
+
+
+            <ImageView
+                android:id="@+id/eczemaRashOnKneesImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/eczemarashonknees" />
+
+            <CheckBox
+                android:id="@+id/eczemaRashOnKneesBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="eczmaRashOnKneesClick"
+                android:text="Check if you have this" />
+
+
+            <ImageView
+                android:id="@+id/tanningImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/tanning" />
+
+            <CheckBox
+                android:id="@+id/tanningBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="tanningClick"
+                android:text="Check if you have been exposed to the sun for a long time" />
+
+
+            <ImageView
+                android:id="@+id/acneWhiteHeadImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/acnepimple" />
+
+            <CheckBox
+                android:id="@+id/acneWhiteHeadBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="acneWhiteHeadsClick"
+                android:text="Check if you have this" />
+
+
+            <ImageView
+                android:id="@+id/eczemaDryAndScalySkinImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/eczemadryandscalyskin" />
+
+            <CheckBox
+                android:id="@+id/eczemaDryAndScalySkinBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="eczemaDryAndScalySkinClick"
+                android:text="Check if you have this" />
+
+
+            <ImageView
+                android:id="@+id/rosaceaBumpsAndPimplesImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/rosaceabumpsandpimples" />
+
+            <CheckBox
+                android:id="@+id/rosaceaBumpsAndPimplesBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="rosaceaBumpsAndPimplesClick"
+                android:text="Check if you have this" />
+
+
+            <ImageView
+                android:id="@+id/rosaceaEyeIrritationImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/rosaceaeyeirritation" />
+
+            <CheckBox
+                android:id="@+id/rosaceaEyeIrritationImageBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="rosaceaEyeIrritationImageClick"
+                android:text="Check if you have this" />
+
+
+            <ImageView
+                android:id="@+id/rosaceaFlushingImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/rosaceaflushing" />
+
+            <CheckBox
+                android:id="@+id/rosaceaFlushingBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="rosaceaFlushingClick"
+                android:text="Check if you have this" />
+
+
+            <ImageView
+                android:id="@+id/rosaceaPlaqueImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/rosaceaplaque" />
+
+            <CheckBox
+                android:id="@+id/rosaceaPlaqueBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="rosaceaPlaqueClick"
+                android:text="Check if you have this" />
+
+
+            <ImageView
+                android:id="@+id/rosaceaVisibleBloodVesselsImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/rosaceavisiblebloodvessels" />
+
+            <CheckBox
+                android:id="@+id/rosaceaVisibleBloodVesselsBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="rosaceaVisibleBloodVesselsClick"
+                android:text="Check if you have this" />
+
+
+            <ImageView
+                android:id="@+id/hivesInsectStingImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/hivesinsectsting" />
+
+            <CheckBox
+                android:id="@+id/hivesInsectStingBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="hivesInsectStingClick"
+                android:text="Check if you have this" />
+
+
+            <ImageView
+                android:id="@+id/hivesPaleRedBumpsImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/hivespaleredbumps" />
+
+            <CheckBox
+                android:id="@+id/hivesPaleRedBumpsBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="hivesPaleRedBumpsImageClick"
+                android:text="Check if you have this" />
+
+
+            <ImageView
+                android:id="@+id/swellingImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/swelling" />
+
+            <CheckBox
+                android:id="@+id/swellingBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="swellingClick"
+                android:text="Check if you have this" />
+
+
+            <ImageView
+                android:id="@+id/wartsBumpImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/wartsbump" />
+
+            <CheckBox
+                android:id="@+id/wartsBumpBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="wartsBumpClick"
+                android:text="Check if you have this" />
+
+            <ImageView
+                android:id="@+id/wartsDarkDotImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/wartsdarkdot" />
+
+            <CheckBox
+                android:id="@+id/wartsDarkDotBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="wartsDarkDotClick"
+                android:text="Check if you have this" />
+
+            <ImageView
+                android:id="@+id/wartsSharingRazorImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/wartssharingrazors" />
+
+            <CheckBox
+                android:id="@+id/wartsSharingRazorBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="wartsSharingRazorClick"
+                android:text="Check if you have this" />
+
+            <ImageView
+                android:id="@+id/wartsSharingTowelsImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/wartssharingtowels" />
+
+            <CheckBox
+                android:id="@+id/wartsSharingTowelsBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="wartsSharingTowelsClick"
+                android:text="Check if you have this" />
+
+            <ImageView
+                android:id="@+id/wartsTimyBloodVesselImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/wartstinybloodvessel" />
+
+            <CheckBox
+                android:id="@+id/wartsTimyBloodVesselBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="wartsTimyBloodVesselClick"
+                android:text="Check if you have this" />
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="goToCalculations"
+                android:text="Submit"
+
+                />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
